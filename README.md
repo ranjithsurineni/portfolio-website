@@ -107,7 +107,7 @@ This portfolio is now **fully functional, interactive, and ready to be customize
 ## 💌 **Contact Me**
 
 🔗 Portfolio: [ranjithsurineni](https://ranjithsurineni.github.io/)  
-📧 Email: ranjithranji1903@gmail.com 
+📧 Email:[forcontact] (ranjithranji1903@gmail.com)
 👨‍💻 GitHub: [ranjithsurineni](https://github.com/ranjithsurineni/)  
 
 ---
