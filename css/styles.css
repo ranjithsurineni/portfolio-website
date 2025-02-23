@@ -1,0 +1,441 @@
+/* styles.css */
+
+.text-warning.home {
+    color: #ffc107 !important; /* Neon Blue */
+    font-weight: bold;
+}
+
+/* img Background */
+
+/* Apply background image to the entire website */
+body {
+    background: url("../images/img2.jpg") no-repeat center center fixed;
+    background-size: cover;
+    text-align: center;
+    margin: 20px;
+}
+
+/* Ensure text and other content remain visible */
+#home {
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: 50px;
+    color: white;  /* Ensures text remains readable */
+}
+
+#home .intro {
+    position: relative;
+    z-index: 2;
+}
+
+/* end hear */
+
+/* Apply background video to the entire website */
+
+#background-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+}
+
+header {
+    background: #2a1891;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 100px 20px;
+    min-height: 100vh;
+}
+
+.intro h1 span {
+    color: #fdf3f1;
+}
+
+button {
+    background: #ff5733;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+/* skills start hear */
+
+h2 {
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 20px;
+}
+
+
+/* skills end hear */
+
+
+/* Timeline for Experience */
+.timeline {
+    position: relative;
+    padding: 20px 0;
+}
+
+.timeline::before {
+    content: "";
+    position: absolute;
+    width: 4px;
+    background: #ff5733;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.event {
+    position: relative;
+    width: 50%;
+    padding: 10px;
+    background: #f4f4f4;
+    margin: 20px 0;
+}
+
+.event:nth-child(odd) {
+    left: 0;
+}
+
+.event:nth-child(even) {
+    left: 50%;
+}
+
+
+#home {
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: 50px;
+    filter: brightness(80%);
+}
+
+#home .intro {
+    position: relative;
+    z-index: 2;
+    color: white;
+}
+
+.typing-text {
+    font-family: "Times New Roman", serif;
+    color: rgb(110, 49, 49);
+    font-size: 24px; /* Adjust font size if needed */
+}
+
+
+/* experiance */
+
+#experience {
+    background: transparent; /* Makes the background fully transparent */
+    font-family: "Lucida Console", "Courier New", monospace; /* Sets font to Times New Roman */
+    color: white; /* Sets text color to white */
+}
+
+.timeline .event {
+    background: transparent; /* Ensures each event box is also transparent */
+    border: none; /* Removes any borders */
+    box-shadow: none; /* Removes shadow */
+    padding: 10px;
+}
+
+
+/* end hear */
+
+/* projects */
+
+.card {
+    background: transparent !important; /* Make the card background transparent */
+    border: 1px solid white; /* Add a subtle border */
+    color: white; /* Set text color */
+}
+
+.card-title, .card-text {
+    color: white !important;
+}
+
+.card img {
+    height: 200px; /* Adjust image size */
+    object-fit: cover;
+    border-bottom: 1px solid white;
+}
+
+.btn-primary {
+    background-color: #ff9800; /* Customize button color */
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #e68900;
+}
+
+
+/* end hear */
+
+/* certifiactes */
+
+.card-img-top {
+    width: 100%; 
+    height: 250px; /* Set a fixed height */
+    object-fit: cover; /* Ensures image fills the frame without distortion */
+     /* Optional: adds rounded corners for a smoother look */
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+
+#education, #experience, #projects, #certificates, #contact, #home, #skills {
+    padding: 50px 0; /* Adds padding above and below each section */
+    background: transparent; /* Makes the background fully transparent */
+    font-family: 'Times New Roman', Times, serif; /* Sets font to Times New Roman */
+    color: white; /* Sets text color to white */
+}
+
+
+/* contect */
+/* Neon Blue Theme */
+body {
+    background-color: #0A192F; /* Deep Blue Background */
+    color: #00E6FF; /* Neon Blue Text */
+    font-family: 'Arial', sans-serif;
+}
+
+/* Contact Section */
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+.text-warning {
+    color: #00E6FF !important;
+}
+
+/* Contact Wrapper */
+.contact-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+/* Contact Form */
+.contact-form {
+    flex: 1;
+    background: rgba(0, 0, 0, 0.6); /* Semi-transparent black */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px rgba(0, 230, 255, 0.5); /* Floating Effect */
+    position: relative;
+    min-width: 400px;
+}
+
+/* Labels */
+.contact-form label {
+    display: block;
+    font-size: 16px;
+    color: #00E6FF; /* Neon Blue */
+    margin-bottom: 5px;
+    text-align: left; /* Left-aligned */
+}
+
+/* Inputs & Textarea */
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: 0.3s ease-in-out;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #FFF;
+}
+
+/* Hover Effects */
+.contact-form input:hover,
+.contact-form textarea:hover,
+.contact-form input:focus,
+.contact-form textarea:focus {
+    border: 2px solid #00E6FF; /* Neon Blue Border */
+    box-shadow: 0px 0px 10px rgba(0, 230, 255, 0.8);
+    outline: none;
+}
+
+/* Button */
+.contact-form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #00E6FF;
+    border: none;
+    border-radius: 5px;
+    color: #0A192F;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+/* Button Hover */
+.contact-form button:hover {
+    background-color: #007BFF;
+    color: #FFF;
+    box-shadow: 0px 0px 15px rgba(0, 230, 255, 0.9);
+}
+
+/* Google Map */
+.contact-map {
+    flex: 1;
+    min-width: 400px;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px rgba(0, 230, 255, 0.5);
+    position: relative;
+    text-align: center;
+}
+
+/* Map Iframe */
+.contact-map iframe {
+    width: 100%;
+    height: 350px;
+    border-radius: 10px;
+}
+
+/* Sub-text */
+.sub-text {
+    font-size: 14px;
+    color: #BBE1FA;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .contact-wrapper {
+        flex-direction: column;
+    }
+}
+
+
+/* */
+
+/* edication section starts hear*/
+
+.education-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 10px;
+    padding: 20px;
+    background: rgba(31, 31, 31, 0.6); /* Transparent effect */
+    backdrop-filter: blur(10px);
+    color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.text-area {
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    overflow: auto;
+}
+
+.text-area h2 {
+    color: #f4a261;
+}
+
+.text-area ul {
+    padding-left: 20px;
+    text-align: left;
+}
+
+.image-location {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    height: 50%;
+    width: 60%;
+    gap: 10px;
+}
+
+.image-box, .location-box {
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    text-align: center;
+    border-radius: 5px;
+    height: 80;
+    width: 100;
+}
+
+.image-box img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 768px) {
+    .education-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* college webaite link button */
+
+.bt {
+    background-color: #f4a261;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    text-decoration: none;
+}
+
+.bt:hover {
+    background-color: #e76f51;
+}
+
+
+
+
+
