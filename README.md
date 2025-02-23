@@ -29,7 +29,7 @@ This is a **fully responsive personal portfolio website** showcasing my **skills
 
 1. **Clone this repository**:
    ```sh
-   git clone https://github.com/your-username/your-portfolio.git
+    https://github.com/ranjithsurineni/ranjithsurineni.github.io.git
    ```
 2. **Navigate to the project folder**:
    ```sh
@@ -64,7 +64,7 @@ This repository is open for modifications! You can **use it as a template** and 
 1. **Fork the repository** by clicking the "Fork" button at the top-right of this page.  
 2. **Clone your forked repository**:
    ```sh
-   git clone https://github.com/your-username/your-portfolio.git
+   git clone https://github.com/ranjithsurineni/ranjithsurineni.github.io.git
    ```
 3. **Modify the content** (Edit `index.html`, `style.css`, or `script.js`).  
 4. **Commit your changes**:
@@ -106,7 +106,7 @@ This portfolio is now **fully functional, interactive, and ready to be customize
 
 ## 💌 **Contact Me**
 
-🔗 Portfolio: [Your Live Portfolio Link](https://your-username.github.io/your-portfolio/)  
+🔗 Portfolio: [ranjithsurineni](https://ranjithsurineni.github.io/)  
 📧 Email: ranjithranji1903@gmail.com 
 👨‍💻 GitHub: [ranjithsurineni](https://github.com/ranjithsurineni/)  
 
