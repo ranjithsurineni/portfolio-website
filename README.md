@@ -108,26 +108,15 @@ This repository is open for modifications! You can **use it as a template** and 
 
 ---
 
-## 🚀 **My Contributions (ChatGPT)**
-
-I contributed to **designing, coding, and enhancing** the following features:  
-
-✅ **Structured the portfolio design using HTML, CSS, and JavaScript**  
-✅ **Implemented Google Maps API for location display**  
-✅ **Integrated Freespee for user interaction analytics**  
-✅ **Added smooth animations & improved UI responsiveness**  
-✅ **Guided in GitHub Pages Deployment for hosting**  
-✅ **Provided documentation for further customization**  
-
 This portfolio is now **fully functional, interactive, and ready to be customized!** 🎉  
 
 ---
 
 ## 💌 **Contact Me**
 
-🔗 Portfolio: [ranjithsurineni](https://ranjithsurineni.github.io/)  
-📧 Email:[forcontact] (ranjithranji1903@gmail.com)
-👨‍💻 GitHub: [ranjithsurineni](https://github.com/ranjithsurineni/)  
+- 🔗 Portfolio: [ranjithsurineni](https://ranjithsurineni.github.io/)  
+- 📧 Email: [for contact](ranjithranji1903@gmail.com)
+- 👨‍💻 GitHub: [ranjithsurineni](https://github.com/ranjithsurineni/)  
 
 ---
 
