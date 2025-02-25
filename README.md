@@ -11,6 +11,7 @@ This is a **fully responsive personal portfolio website** showcasing my **skills
 ✅ **Freespee Integration for Enhanced User Engagement**  
 ✅ **SEO Optimized for Better Search Visibility**  
 ✅ **GitHub Pages Deployment for Live Hosting**  
+✅ **Theme Selection Feature for Personalized Backgrounds**
 
 ---
 
@@ -24,6 +25,24 @@ This is a **fully responsive personal portfolio website** showcasing my **skills
 - **Deployment**: GitHub Pages  
 
 ---
+
+### 🎨 Background Theme Selection Feature
+
+A dynamic theme selection feature is added to allow users to customize the website background. The user can select from different themes, including video backgrounds and static images. The available themes are:
+
+  - **TechGreen Theme** (Video)
+  - **TechRed Theme** (Video)
+  - **Goku Theme** (Video)
+  - **Technology Theme** (Image)
+  - **Technology2 Theme** (Image)
+
+### Implementation Details
+  - A **dropdown menu** allows users to select a background theme.
+  - The **JavaScript function dynamically updates the background** based     on user selection.
+
+  - **Video backgrounds are added dynamically** when selected.
+
+  - **Static images are applied as background** when chosen.
 
 ## 📌 **How to Run Locally**
 
