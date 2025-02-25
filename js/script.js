@@ -71,7 +71,7 @@ const videoSources = {
 };
 
 const imageSources = {
-    "image-1": "images/img1.jpg",
+    "image-1": "images/tech01.jpg",
     "image-2": "images/img2.jpg"
 };
 
