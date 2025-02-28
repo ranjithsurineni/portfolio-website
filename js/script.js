@@ -37,10 +37,10 @@ document.addEventListener("DOMContentLoaded", function () {
             "Cyber Security Analyst",
             "DevOps Engineer",
         ],
-        typeSpeed: 100, // Speed of typing
+        typeSpeed: 90, // Speed of typing
         backSpeed: 50,  // Speed of backspacing
-        backDelay: 1000, // Delay before deleting
-        startDelay: 500, // Initial delay before typing starts
+        backDelay: 1200, // Delay before deleting
+        startDelay: 600, // Initial delay before typing starts
         loop: true,  // Keep looping through the texts
         showCursor: true,  // Show blinking cursor
         cursorChar: "|", // Cursor character
