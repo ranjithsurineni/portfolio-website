@@ -109,3 +109,5 @@ function changeTheme(theme) {
         document.body.style.backgroundSize = "cover";
     }
 }
+
+//toggle theme ends hear
