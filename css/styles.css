@@ -101,50 +101,7 @@ h2 {
 
 /* skills end hear */
 
-
-/* Timeline for Experience */
-.timeline {
-    position: relative;
-    padding: 20px 0;
-}
-
-.timeline::before {
-    content: "";
-    position: absolute;
-    width: 4px;
-    background: #ff5733;
-    top: 0;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-}
-
-.event {
-    position: relative;
-    width: 50%;
-    padding: 10px;
-    background: #f4f4f4;
-    margin: 20px 0;
-}
-
-.event:nth-child(odd) {
-    left: 0;
-}
-
-.event:nth-child(even) {
-    left: 50%;
-}
-
-
-#home {
-    position: relative;
-    min-height: 100vh;
-    display: flex;
-    align-items: flex-end;
-    justify-content: flex-start;
-    padding: 50px;
-    filter: brightness(80%);
-}
+/*home starts hear*/
 
 #home .intro {
     position: relative;
@@ -157,9 +114,93 @@ h2 {
     color: rgb(110, 49, 49);
     font-size: 24px; /* Adjust font size if needed */
 }
-
+/*home end hear*/
 
 /* experiance */
+
+
+/* Upgraded Timeline for Experience */
+.timeline {
+    position: relative;
+    padding: 40px 0;
+}
+
+.timeline::before {
+    content: "";
+    position: absolute;
+    width: 5px;
+    background: linear-gradient(180deg,  #ffc107, #ffdd57);
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 10px;
+}
+
+/* Timeline Event Styling */
+.event {
+    position: relative;
+    width: 45%;
+    padding: 20px;
+    background: #222831;
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease-in-out;
+}
+
+.event:hover {
+    transform: scale(1.05);
+}
+
+.event:nth-child(odd) {
+    left: 0;
+    text-align: right;
+}
+
+.event:nth-child(even) {
+    left: 55%;
+    text-align: left;
+}
+
+/* Circle Dots on Timeline */
+.event::before {
+    content: "\f111"; /* FontAwesome Circle */
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    position: absolute;
+    top: 20px;
+    right: -30px;
+    font-size: 16px;
+    color: #e1eb62;
+}
+
+.event:nth-child(even)::before {
+    right: auto;
+    left: -30px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .timeline::before {
+        left: 20px;
+    }
+
+    .event {
+        width: 90%;
+        left: 0 !important;
+        text-align: left;
+        margin-left: 40px;
+    }
+
+    .event::before {
+        left: -25px !important;
+        right: auto;
+    }
+}
+
+/* experiance section ends hear*/
+
 
 #experience {
     background: transparent; /* Makes the background fully transparent */
