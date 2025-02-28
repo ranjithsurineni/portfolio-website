@@ -31,11 +31,11 @@ window.onload = function () {
 document.addEventListener("DOMContentLoaded", function () {
     var options = {
         strings: [
-            "Artificial Intelligence",
-            "Data Science",
-            "Machine Learning",
-            "Cyber Security",
-            "DevOps",
+            "AI Engineer",
+            "Data Scientist",
+            "Machine Learning Engineer",
+            "Cyber Security Analyst",
+            "DevOps Engineer",
         ],
         typeSpeed: 100, // Speed of typing
         backSpeed: 50,  // Speed of backspacing
